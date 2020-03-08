@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import AppliedRoute from "./components/AppliedRoute";
 import Home from "./containers/Home";
 import Login from "./containers/Login";
+import ResetPassword from "./containers/ResetPassword";
 import Signup from "./containers/Signup";
 import NewNote from "./containers/NewNote";
 import Notes from "./containers/Notes";
@@ -27,6 +28,12 @@ export default function Routes({ appProps }) {
                 exact
                 component={Signup}
                 appProps={appProps}
+            />
+            <UnauthenticatedRoute
+                path="/login/reset"
+                exact
+                component={ResetPassword}
+                props={childProps}
             />
             <AuthenticatedRoute
                 path="/settings"
