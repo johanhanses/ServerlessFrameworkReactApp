@@ -30,7 +30,7 @@ const dev = {
     },
     apiGateway: {
         REGION: "us-east-1",
-        URL: "http://dev-api.notes.johanhanses.net"
+        URL: "https://dev-api.notes.johanhanses.net"
     },
     cognito: {
         REGION: "us-east-1",
@@ -48,7 +48,7 @@ const prod = {
     },
     apiGateway: {
         REGION: "us-east-1",
-        URL: "http://api.notes.johanhanses.net"
+        URL: "https://api.notes.johanhanses.net"
     },
     cognito: {
         REGION: "us-east-1",
