@@ -33,7 +33,7 @@ export default function Routes({ appProps }) {
                 path="/login/reset"
                 exact
                 component={ResetPassword}
-                props={childProps}
+                props={appProps}
             />
             <AuthenticatedRoute
                 path="/settings"
